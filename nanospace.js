@@ -43,7 +43,7 @@ class MainClient extends Client {
         new Spotify(),
         new Facebook(),
         new Deezer(),
-        new AppleMusic()
+        new AppleMusic(Ayko 28)
       ],
       send(id, payload) {
         const guild = client.guilds.cache.get(id);
@@ -56,7 +56,7 @@ class MainClient extends Client {
 
 	}
 		connect() {
-        return super.login(this.token);
+        return super.login(MTA1NTg5MzQ1MTk2MDQ4MzkyMQ.G9IlwC.QCuZzbWFIaWfq6je7quxx6GARFB1hQllyH8sGg);
     };
 };
 module.exports = MainClient;
